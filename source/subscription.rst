@@ -1,7 +1,7 @@
 /subscription
 -----------------
 
-/igoogle
+/subscription/igoogle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GET igoogle subscriptions list
 
@@ -44,7 +44,7 @@ GET igoogle subscriptions list
       ]
     }
 
-/edit
+/subscription/edit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Addo or remove feed to a new folder or change feed name
 
@@ -83,7 +83,7 @@ Addo or remove feed to a new folder or change feed name
 
     OK
  
-/list
+/subscription/list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GET subscriptions list
 
@@ -151,7 +151,7 @@ GET subscriptions list
     }
     
     
-/quickadd
+/subscription/quickadd
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Subscribe a feed, if you input a keyword, will return some feed urls include keyword, you need use https://www.google.com/reader/directory/search?q=<keyword> to get more details about search result.
 The Subscription Limit is 2000.
@@ -182,7 +182,7 @@ The Subscription Limit is 2000.
 
     OK        
 
-/export
+/subscription/export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Export subscriptions list
 

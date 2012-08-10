@@ -3,7 +3,7 @@
 https://www.google.com/reader/bundle/user/<usrId_>/bundle/test
 
  
- /list-user-bundle
+/bundle/list-user-bundle
 -------------------
 GET usr bundle lists
 
@@ -46,7 +46,7 @@ GET usr bundle lists
       ]
     }    
 
-/edit-bundle
+/bundle/edit-bundle
 -----------------
 creteat bundle
 
@@ -109,7 +109,7 @@ creteat bundle
    {"bundles":[]}
 
  
-/delete-bundle
+/bundle/delete-bundle
 -----------------
 * Methods::
 
@@ -137,7 +137,7 @@ creteat bundle
    A html page
 
 
-/bundles
+/bundle/bundles
 --------------------------
 Get bundles.
 
@@ -209,7 +209,7 @@ Get bundles.
     }
 
 
-/list-friends-bundle
+/bundle/list-friends-bundle
 --------------------------
 List your friends bundles.
 
@@ -233,7 +233,7 @@ List your friends bundles.
 
    Same output with `/bundles`_
 
-/list-featured-bundle
+/bundle/list-featured-bundle
 --------------------------
 Get feature bundle lists.
 

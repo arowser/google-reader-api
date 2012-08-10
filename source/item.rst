@@ -1,6 +1,6 @@
 /item
 --------
-/edit
+/item/edit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Path::
 
@@ -69,7 +69,7 @@ delete item from your share items.
 
     OK
  
-/likers
+/item/likers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Path::

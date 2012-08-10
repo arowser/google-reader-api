@@ -49,3 +49,6 @@ google reader history
 
 http://blog.persistent.info/2011/10/google-reader-social-retrospective.html
  
+Library
+===========================================
+http://code.google.com/p/gdata-objectivec-client/

@@ -17,6 +17,10 @@ opensource example
 4.php
  https://code.google.com/p/greader-library/
 
+ https://github.com/ericmann/gReader-Library
+
+ https://github.com/dimmduh/Google-Reader-API-PHP-class
+
  http://mobile.tutsplus.com/tutorials/mobile-web-apps/building-a-mobile-web-application-with-the-google-reader-api/
 
 5.python

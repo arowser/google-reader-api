@@ -1,8 +1,8 @@
 /stream
 --------
-/contents
+/stream/contents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/user
+/stream/contents/user
 '''''''''''''''''''''''''''''''''''''''''''
 
 GET reader user item, share/starred/ reading-list
@@ -97,7 +97,7 @@ Lists all items from a given label.
         ]
       }
 
-/feed
+/stream/contents/feed
 '''''''''''''''''''''''''''''''''''''''''''
 GET items belonging to a particular feed.
 
@@ -187,7 +187,7 @@ GET items belonging to a particular feed.
       ]
     }
 
-/details
+/stream/details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GET a feed details like subscribers, velocity.
@@ -233,10 +233,10 @@ GET a feed details like subscribers, velocity.
       "feedUrl": "http://www.codeproject.com/webservices/articlerss.aspx?cat=1"
     }
     
-/items
+/stream/items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-/ids
+/stream/items/ids
 '''''''''''''''''''''''''''''''''''''''''''
 Given one or more StreamIds and fetching options, returns the IDs of the items in those Streams. Getting just item IDs is significantly cheaper than getting stream contents. If you need to do filtering of items, it is highly encouraged to do this at the ID level before fetching item contents for the subset of items that remain.
 
@@ -291,7 +291,7 @@ Given one or more StreamIds and fetching options, returns the IDs of the items i
          ]
        }
        
-/count
+/stream/items/count
 '''''''''''''''''''''''''''''''''''''''''''
 1.Since July 8, 2009 you have read a total of 3,807 items.
 
@@ -355,7 +355,7 @@ Given one or more StreamIds and fetching options, returns the IDs of the items i
 
     10
     
-/contents
+/stream/items/contents
 '''''''''''''''''''''''''''''''''''''''''''
 GET some items content
 

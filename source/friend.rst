@@ -1,6 +1,6 @@
 /friend
 --------
-/groups
+/friend/groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GET reader groups.
 
@@ -56,7 +56,7 @@ GET reader groups.
          ]
        }
 
-/acl
+/friend/acl
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Methods::
@@ -88,8 +88,8 @@ GET reader groups.
       "memberId": [],
       "isEditingDisabled": false
     }   
- 
-/edit
+        
+/friend/edit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Follow or unfollow people
 
@@ -120,7 +120,7 @@ Follow or unfollow people
 
     OK
 
-/list
+/friend/list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GET you following people or followers, when you open google reader, it will get following people for every hours.
 
@@ -181,7 +181,7 @@ GET you following people or followers, when you open google reader, it will get 
        ]
      }
  
-/feeds
+/friend/feeds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Discover feeds from your follow
 
@@ -234,4 +234,3 @@ Discover feeds from your follow
          }
        ]
      }
- 
