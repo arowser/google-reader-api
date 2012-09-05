@@ -1,4 +1,4 @@
- /recommendation/edit
+/recommendation/edit
 ---------------------------
 Delete a feed from recommend lists.
 
